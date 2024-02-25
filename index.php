@@ -6,7 +6,7 @@
   <!-- <title>Beep-Loop</title> -->
   <meta charset="utf-8">
   <title>Beep</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.min.css">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
     </details>
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.min.js"></script>
 
 </body>
 

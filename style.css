@@ -13,63 +13,12 @@
 
 ***************************************************************************** */
 
-html {
-  /* see: https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/#comment-1769978 - comment by MaxDesign */
-  font-size:calc(var(--default-min-font-size-px) + (var(--default-max-font-size) - var(--default-min-font-size)) * ((100vh - 360px) / 1560));
-  font-size: clamp(var(--default-min-font-size-px), calc(var(--default-min-font-size-px) + (var(--default-max-font-size) - var(--default-min-font-size)) * ((100vh - 360px) / 1560)), var(--default-max-font-size-px));
+header {
+  margin-bottom: 1em;
 }
 
 body {
-  height: calc(100vh - 3vmin); /* minus margin-top - margin bottom is 0 */
-  font-size: inherit;
-  font-family: helvetica, Arial, sans-serif;
-  background-color: #555;
-  color: white;
-  /* margin-bottom is calculated here to 0
-  this margin must be set by the lowest elements,
-  because they should go to the very bottom */
-  margin: 3vmin 4vmin calc(var(--default-body-bottom-margin) - var(--default-body-bottom-margin)) 4vmin;
-}
-
-*:focus {
-  outline: 2px solid white;
-  outline-offset: 2px;
-}
-
-a {
-  color: #ffffff;
-}
-
-header a {
-  text-decoration: none;
-}
-
-/* kind of disabled link - text-decoration will be none automatically */
-a:not([href]) {
-  color: #AAAAAA;
-}
-
-header {
-  margin-bottom: 1.0em;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  column-gap: 0.7em;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-#github {
-  margin-left: auto;
-}
-
-#github-cat {
-  height: 1.5em;
+  font-size: 2em;
 }
 
 /* *****************************************************************************
@@ -183,12 +132,6 @@ details summary {
 
 ***************************************************************************** */
 
-body {
-  background-color: #555555;
-  color: white;
-  font-family: "Helvetica", sans-serif;
-}
-
 #countdown {
   display: flex;
   margin-bottom: 5.5vh;
@@ -198,7 +141,7 @@ body {
 }
 
 #beeping, #secondsLabel {
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 #beeping {
@@ -207,7 +150,7 @@ body {
 
 #time-remaining {
   font-size: 15rem;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 #secondsLabel {
