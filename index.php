@@ -24,7 +24,7 @@
   <main>
     <section id="countdown">
       <p id="beeping">Beeping in</p>
-      <span id="time-remaining"></span>
+      <span id="time-remaining">&nbsp;</span>
       <p id="secondsLabel">seconds</p>
 
       <button id="muteButton">
