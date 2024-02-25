@@ -141,7 +141,7 @@ details summary {
 }
 
 #beeping, #secondsLabel {
-  font-size: 3.75rem;
+  font-size: 3rem;
 }
 
 #beeping {
@@ -149,7 +149,7 @@ details summary {
 }
 
 #time-remaining {
-  font-size: 15rem;
+  font-size: 10rem;
   line-height: 1.1;
 }
 
